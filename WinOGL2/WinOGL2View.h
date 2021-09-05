@@ -1,6 +1,7 @@
 ﻿
 // WinOGL2View.h : CWinOGL2View クラスのインターフェイス
 //
+//出口
 
 #pragma once
 
