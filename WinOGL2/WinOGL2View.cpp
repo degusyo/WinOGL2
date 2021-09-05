@@ -24,6 +24,7 @@ IMPLEMENT_DYNCREATE(CWinOGL2View, CView)
 
 BEGIN_MESSAGE_MAP(CWinOGL2View, CView)
 	ON_WM_LBUTTONDOWN()
+	ON_WM_RBUTTONDOWN()
 END_MESSAGE_MAP()
 
 // CWinOGL2View コンストラクション/デストラクション
@@ -88,4 +89,12 @@ void CWinOGL2View::OnLButtonDown(UINT nFlags, CPoint point)
 	// TODO: ここにメッセージ ハンドラー コードを追加するか、既定の処理を呼び出します。
 
 	CView::OnLButtonDown(nFlags, point);
+}
+
+
+void CWinOGL2View::OnRButtonDown(UINT nFlags, CPoint point)
+{
+	// TODO: ここにメッセージ ハンドラー コードを追加するか、既定の処理を呼び出します。
+
+	CView::OnRButtonDown(nFlags, point);
 }
