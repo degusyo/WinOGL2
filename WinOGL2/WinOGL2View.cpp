@@ -86,6 +86,10 @@ CWinOGL2Doc* CWinOGL2View::GetDocument() const // デバッグ以外のバージ
 void CWinOGL2View::OnLButtonDown(UINT nFlags, CPoint point)
 {
 	// TODO: ここにメッセージ ハンドラー コードを追加するか、既定の処理を呼び出します。
+	int x = 0;
+	x = 1;
+	x = 1;
+	x = 1;
 
 	CView::OnLButtonDown(nFlags, point);
 }
